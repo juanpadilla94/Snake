@@ -32,7 +32,7 @@ public class Game implements Runnable {
 		final JLabel status = new JLabel("Running...");
 		status_panel.add(status);
 
-		// Main playing area
+		// Main playing are
 		final GameCourt court = new GameCourt(status);
 		frame.add(court, BorderLayout.CENTER);
 
